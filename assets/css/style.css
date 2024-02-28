@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Common */
+a {
+  text-decoration: none;
+}
+
+.content {
+  width: 1416px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 19px 31px;
+  border-radius: 20px;
+  background-color: #263138;
+  color: #fff;
+  font-size: 2.4rem;
+  line-height: normal;
+}
+
+/* Header */
+.header.fixed {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+.header {
+  background-color: #fff;
+  padding-top: 62px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.logo__name {
+  color: #445964;
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+.header__nav {
+  margin-left: auto;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav__menu--item a {
+  padding: 45px;
+  color: #445964;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.hero__info {
+  width: 38%;
+}
+
+.hero__media {
+  width: 62%;
+}
+
+.hero__media img {
+  width: 705px;
+  height: 697px;
+  margin-top: 50;
+  display: block;
+  margin-left: auto;
+}
+
+.hero__body {
+  display: flex;
+}
+.info__introduce {
+  margin-top: 180px;
+}
+.info__introduce span {
+  color: #445964;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.info__title {
+  color: #445964;
+  font-size: 7.2rem;
+  font-weight: 900;
+}
+
+.info__desc {
+  color: #445964;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.hero__info--action {
+  margin-top: 130px;
+}
+
+.hero__info--social {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  width: 40px;
+  height: 38px;
+  margin-top: 100px;
+}
+
+/* Skill */
+.skill {
+  padding-top: 50px;
+}
+.skill__info {
+  padding-top: 20px;
+}
+.skill_info--title {
+  text-align: center;
+  color: #263138;
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+.skill_info--title span {
+  color: #445964;
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+
+.skill__info--desc {
+  text-align: center;
+  margin-top: 24px;
+  color: #445964;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.skill__avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+.skill__avatar--img {
+  width: 183px;
+  height: 183px;
+  border-radius: 30px;
+}
+
+/* Skill */
+.skill__content {
+  width: 1032px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.listskill__item {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skill__listskill--1,
+.skill__listskill--2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill_info--title {
+  margin-top: 75px;
+}
+.skill_info--title:first-child {
+  margin-top: 0;
+}
+.listskill__item {
+  margin-top: 62px;
+}
+
+.listskill__item--name {
+  color: #445964;
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+/* Project */
+
+.project {
+  padding-top: 135px;
+}
+
+.protject__title {
+  color: #263138;
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+
+.project__desc {
+  display: flex;
+  align-items: center;
+  gap: 91px;
+}
+
+.project__desc-title {
+  color: #445964;
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+.project__desc--desc {
+  width: 398px;
+  color: #445964;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.project__button {
+  margin-top: 80px;
+  gap: 18px;
+  display: flex;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+  height: 30px;
+  color: #445964;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.button:hover {
+  color: #fff;
+  background-color: #263138;
+}
+.active {
+  color: #fff;
+  background-color: #263138;
+}
+
+.content--project {
+  margin-top: 75px;
+  width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project__list--item {
+}
+.project__list {
+  display: flex;
+  gap: 30px;
+}
+.item--project {
+  border-radius: 20px;
+  width: 340px;
+  height: 190px;
+  background-color: #263138;
+}
+.item--1,
+.item--3 {
+  margin-top: 50px;
+  width: 340px;
+  height: 250px;
+  background-color: #dfdfdf;
+}
+
+.item--2 {
+  background-color: #445964;
+  width: 340px;
+  height: 250px;
+  margin-bottom: 50px;
+}
